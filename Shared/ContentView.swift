@@ -8,22 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            HStack {
-                Text("Hello")
-                    .padding()
-                    .foregroundColor(.blue)
-                Text("world!")
-                    .padding()
-                    .foregroundColor(.blue)
+        NavigationView {
+            ScrollView {
+                LazyVStack {
+                    GamePreviewCell()
+                    GamePreviewCell()
+                }
             }
-            Text("Hello")
-                .padding()
-                .foregroundColor(.blue)
-            Text("world!")
-                .padding()
-                .foregroundColor(.blue)
+            .navigationBarTitle(Text("Live Games"))
         }
     }
 }

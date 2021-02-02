@@ -15,6 +15,8 @@
 		3108B29E25C64D0A00E3551E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108B27325C64D0800E3551E /* ContentView.swift */; };
 		3108B29F25C64D0A00E3551E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3108B27425C64D0A00E3551E /* Assets.xcassets */; };
 		3108B2A025C64D0A00E3551E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3108B27425C64D0A00E3551E /* Assets.xcassets */; };
+		3108B2B425C8F4DC00E3551E /* GamePreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108B2B325C8F4DC00E3551E /* GamePreviewCell.swift */; };
+		3108B2B525C8F4DC00E3551E /* GamePreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3108B2B325C8F4DC00E3551E /* GamePreviewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		3108B29425C64D0A00E3551E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3108B29825C64D0A00E3551E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		3108B29A25C64D0A00E3551E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3108B2B325C8F4DC00E3551E /* GamePreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePreviewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 				3108B27225C64D0800E3551E /* CaveApp.swift */,
 				3108B27325C64D0800E3551E /* ContentView.swift */,
 				3108B27425C64D0A00E3551E /* Assets.xcassets */,
+				3108B2B325C8F4DC00E3551E /* GamePreviewCell.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -310,6 +314,7 @@
 			files = (
 				3108B29D25C64D0A00E3551E /* ContentView.swift in Sources */,
 				3108B29B25C64D0A00E3551E /* CaveApp.swift in Sources */,
+				3108B2B425C8F4DC00E3551E /* GamePreviewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +324,7 @@
 			files = (
 				3108B29E25C64D0A00E3551E /* ContentView.swift in Sources */,
 				3108B29C25C64D0A00E3551E /* CaveApp.swift in Sources */,
+				3108B2B525C8F4DC00E3551E /* GamePreviewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
