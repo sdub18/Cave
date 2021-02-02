@@ -26,7 +26,7 @@ struct GamePreviewCell: View {
                         .frame(width: 60, height: 60)
                     Spacer()
                     VStack {
-                        Text("24 - 12")
+                        Text("95 - 96")
                             .font(.system(size: 40))
                             .fontWeight(.black)
                         Text("4th  3:26")
